@@ -1,6 +1,12 @@
 # PHP-SQLSRV
-Class for interacting with SQL Server 
-
+Class for interacting with SQL Server<br>
+<h3>Configuration</h3>
+<h4>Set DB Variables</h4>
+Within the DB.php file set the four constants<br>
+SQLHOST = 'Host' # examples are localhost, domain name or IP addres<br>
+ SQLUID = 'User ID'<br>
+  SQLPW = 'Password'<br>
+  SQLDB = 'Database'<br>
 <h3>Usage</h3>
 <h4>Query</h4>
 $data = DB::getInstance()->query("SELECT TOP(10) column1, column2 FROM MyTable");<br>
